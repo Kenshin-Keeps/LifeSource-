@@ -1,0 +1,148 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* Navigation Section */
+#navigation {
+  background-color: #ff5959;
+  padding: 2% 10%;
+}
+
+.navbar-brand {
+  font-family: "Pacifico", cursive;
+  font-size: 1.5rem;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  padding-left: 0;
+  padding-right: 20px;
+  font-family: "Merriweather", serif;
+}
+.nav-item:hover {
+  color: #eef2ff;
+  font-size: 1.3rem;
+  border-bottom: 5px solid #30475e;
+}
+
+/* Title and Login Form */
+#title-and-login {
+  background-color: #ff5959;
+  color: white;
+  padding: 5% 10% 7%;
+  font-family: "Merriweather", serif;
+  /* min-height: 100vh; */
+}
+.title-text {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.title-subtext {
+  color: #f5f5f5;
+  font-size: 2rem;
+  line-height: 1.5;
+  padding: 3% 0;
+}
+
+.slide-animation {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+/* Login Form */
+form .title-subtext {
+  color: #121212;
+  text-align: center;
+  padding: 0;
+}
+
+.login-form {
+  background-color: #f5f5f5;
+  border: 1px solid white;
+  border-radius: 5%;
+  font-family: "Ubuntu", sans-serif;
+  padding: 2% 10%;
+  color: #121212;
+}
+.or {
+  text-align: center;
+  margin: 0;
+}
+.login-form-btn {
+  margin: 2%;
+}
+hr {
+  margin: 0;
+}
+
+.empty-email-pass {
+  color: red;
+  font-style: italic;
+}
+
+/* Services */
+
+#services {
+  background-color: #f5f5f5;
+  color: #121212;
+  padding: 5% 10% 3%;
+  text-align: center;
+  /* font-family: "Cairo", sans-serif; */
+}
+.service-section-heading {
+  padding-bottom: 2%;
+  font-weight: 700;
+  line-height: 1.5;
+  font-size: 2.5rem;
+}
+.individual-service {
+  padding: 3% 5%;
+}
+.individual-service-heading {
+  font-weight: 700;
+}
+.individual-service-text {
+  font-size: 0.9rem;
+}
+.service-icon {
+  font-size: 3rem;
+  color: #ff5959;
+  margin-bottom: 10px;
+}
+
+/* Footer Section */
+#footer {
+  background-color: #30475e;
+  color: #f5f5f5;
+  padding: 5% 10% 0;
+}
+.creator-info p {
+  margin: 0;
+}
+.social-info {
+  font-size: 2rem;
+  text-align: center;
+  margin: auto auto;
+}
+.social-icon {
+  /* margin: 0 15px; */
+  padding: 0 15px;
+}
+.copyright p {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 0;
+}

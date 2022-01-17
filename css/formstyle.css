@@ -1,0 +1,19 @@
+body {
+  background-color: #ff5959;
+}
+.formstyle {
+  /* margin: 0 auto; */
+  border: 1px solid white;
+  padding: 40px 60px;
+  margin-top: 15%;
+  color: white;
+  /* margin-bottom: 5%; */
+}
+
+.formstyle:hover {
+  box-shadow: -7px 15px 25px 8px rgba(0, 0, 0, 0.75);
+}
+.signup_text {
+  font-size: 16px;
+  text-align: center;
+}
